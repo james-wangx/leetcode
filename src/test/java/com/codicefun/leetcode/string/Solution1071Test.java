@@ -10,9 +10,9 @@ public class Solution1071Test {
 
     @Test
     public void test() {
-        assertEquals("ABC", solution.gcdOfStrings1("ABCABC", "ABC"));
-        assertEquals("AB", solution.gcdOfStrings1("ABABAB", "ABAB"));
-        assertEquals("", solution.gcdOfStrings1("LEET", "CODE"));
+        assertEquals("ABC", solution.gcdOfStrings("ABCABC", "ABC"));
+        assertEquals("AB", solution.gcdOfStrings("ABABAB", "ABAB"));
+        assertEquals("", solution.gcdOfStrings("LEET", "CODE"));
     }
 
 }

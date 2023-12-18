@@ -1,5 +1,6 @@
 package com.codicefun.leetcode.string;
 
+@SuppressWarnings("unused")
 public class Solution1071 {
 
     /**
